@@ -24,7 +24,10 @@ import { ConsultaUsuariosComponent } from './login/consulta-usuarios/consulta-us
 import { EditaUsuarioComponent } from './login/edita-usuario/edita-usuario.component';
 import { FaqComponent } from './faq/faq.component';
 import { FormFaqComponent } from './faq/form-faq/form-faq.component';
-import { DoarComponent } from './doar/doar.component'
+import { DoarComponent } from './doar/doar.component';
+import { DoarCasaumComponent } from './doar/doar-casaum/doar-casaum.component';
+import { DoarNovamulherComponent } from './doar/doar-novamulher/doar-novamulher.component';
+import { DoarAparelhaComponent } from './doar/doar-aparelha/doar-aparelha.component'
 
 @NgModule({
   declarations: [
@@ -48,7 +51,10 @@ import { DoarComponent } from './doar/doar.component'
     EditaUsuarioComponent,
     FaqComponent,
     FormFaqComponent,
-    DoarComponent
+    DoarComponent,
+    DoarCasaumComponent,
+    DoarNovamulherComponent,
+    DoarAparelhaComponent
   ],
   imports: [
     BrowserModule,
