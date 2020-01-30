@@ -10,6 +10,7 @@ import { ConsultaUsuariosComponent } from './login/consulta-usuarios/consulta-us
 import { EditaUsuarioComponent } from './login/edita-usuario/edita-usuario.component';
 import { FaqComponent } from './faq/faq.component';
 import { DoarComponent } from './doar/doar.component';
+import { MeuVaralComponent } from './meu-varal/meu-varal.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home',pathMatch:'full'},
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path: 'consultausuarios', component:ConsultaUsuariosComponent},
   {path: 'editausuarios/:id', component:EditaUsuarioComponent},
   {path: 'faq', component:FaqComponent},
-  {path: 'doar', component:DoarComponent}
+  {path: 'doar', component:DoarComponent},
+  {path: 'meuvaral', component: MeuVaralComponent}
 ];
 
 @NgModule({

@@ -27,7 +27,8 @@ import { FormFaqComponent } from './faq/form-faq/form-faq.component';
 import { DoarComponent } from './doar/doar.component';
 import { DoarCasaumComponent } from './doar/doar-casaum/doar-casaum.component';
 import { DoarNovamulherComponent } from './doar/doar-novamulher/doar-novamulher.component';
-import { DoarAparelhaComponent } from './doar/doar-aparelha/doar-aparelha.component'
+import { DoarAparelhaComponent } from './doar/doar-aparelha/doar-aparelha.component';
+import { MeuVaralComponent } from './meu-varal/meu-varal.component'
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { DoarAparelhaComponent } from './doar/doar-aparelha/doar-aparelha.compon
     DoarComponent,
     DoarCasaumComponent,
     DoarNovamulherComponent,
-    DoarAparelhaComponent
+    DoarAparelhaComponent,
+    MeuVaralComponent
   ],
   imports: [
     BrowserModule,
